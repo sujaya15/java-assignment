@@ -1,0 +1,18 @@
+<html>
+<head><title>LOGIN</title>
+</head>
+<body>
+<% String n=request.getParameter("username");
+   String p=request.getParameter("passw"); %>
+<% if(n.equals("admin") && p.equals("1234"))
+   {
+      out.println("WELCOME TO JSP CODING...");
+   }
+ else
+  {
+     out.println("INCORRECT USERNAME OR PASSWORD");
+  } %>
+</body>
+</html>
+
+
